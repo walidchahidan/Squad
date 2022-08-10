@@ -451,6 +451,10 @@ header ul>li>a{
     text-align: center;
     color: #2F4D5A;
     font-size: 0.9em;
+    
+}
+.team_container article>div>.ic{
+    margin-top:  20px;
 }
 .team_container article>div>h2::after{
     content: " ";
@@ -460,6 +464,7 @@ header ul>li>a{
     width: 50px;
     padding-top: 5px;
 }
+
 /*---------------------------------------------------------------------
                           Contact
 
