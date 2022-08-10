@@ -375,9 +375,17 @@ header ul>li>a{
     display: inline;
     margin: 10px;
     
+    
 }
+
 .portfolio a{
     text-decoration: none;
+    
+}
+.portfolio a:hover{
+    background-color: transparent;
+    color: #3C91B6;
+    
 }
 .portfolio ul{
     display: block;
@@ -536,9 +544,11 @@ form button{
 footer{
     
     position: relative;
-    height: 400px;
+    /* height: 400px; */
     background-color: #263F49 ;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 footer .div_squadfree{
     position: absolute;
@@ -601,15 +611,14 @@ footer button{
     border: none;
     color: white;
 }
-footer::after{
+footer >p::before{
     content:" ";
     
     display: block;
-    margin: auto;
+    
     position: relative;
-    border-top: 2px solid #87BAD2;
-    margin: auto;
+    border-bottom: 2px solid #87BAD2;
+    margin: 20px auto;
     width: 70%;
-    top: 320px;
-
+    /* top: 280px; */
 }
